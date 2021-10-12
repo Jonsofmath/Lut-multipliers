@@ -1,0 +1,123 @@
+$date
+	Sun May  2 23:35:22 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module test_bench $end
+$var wire 2 ! source_number_2b_1 [1:0] $end
+$var wire 32 " source_number_2b_0 [31:0] $end
+$var wire 64 # result_2b [63:0] $end
+$var wire 1 $ resetn_2b $end
+$var wire 1 % clk_2b $end
+$scope module COND $end
+$var wire 2 & source_number_2b_1 [1:0] $end
+$var wire 32 ' source_number_2b_0 [31:0] $end
+$var wire 1 $ resetn_2b $end
+$var wire 1 % clk_2b $end
+$var reg 64 ( result_2b [63:0] $end
+$upscope $end
+$scope module TEST $end
+$var wire 64 ) result_2b [63:0] $end
+$var reg 1 % clk_2b $end
+$var reg 1 $ resetn_2b $end
+$var reg 32 * source_number_2b_0 [31:0] $end
+$var reg 2 + source_number_2b_1 [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+0%
+1$
+bx #
+bx "
+bx !
+$end
+#20
+b0 #
+b0 (
+b0 )
+1%
+#40
+0%
+#60
+0$
+1%
+#80
+0%
+#100
+b11010000000010110011 "
+b11010000000010110011 '
+b11010000000010110011 *
+1%
+#120
+0%
+#140
+b0 !
+b0 &
+b0 +
+1%
+#160
+0%
+#180
+b1 !
+b1 &
+b1 +
+1%
+#200
+0%
+#220
+b10 !
+b10 &
+b10 +
+b11010000000010110011 #
+b11010000000010110011 (
+b11010000000010110011 )
+1%
+#240
+0%
+#260
+b110100000000101100110 #
+b110100000000101100110 (
+b110100000000101100110 )
+b11 !
+b11 &
+b11 +
+1%
+#280
+0%
+#300
+b1001110000001000011001 #
+b1001110000001000011001 (
+b1001110000001000011001 )
+1%
+#320
+0%
+#340
+1%
+#360
+0%
+#380
+1%
+#400
+0%
+#420
+1%
+#440
+0%
+#460
+1%
+#480
+0%
+#500
+1%

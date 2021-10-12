@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon May  3 02:05:14 2021
+[*]
+[dumpfile] "/media/bitlockermount/Users/Jonathan/Documents/PDF_libros/Ingeniería/labo_circ_dig_I/labo_II/src/lut_4b_multiplier/lut_multiplier_4b.vcd"
+[dumpfile_mtime] "Mon May  3 02:02:58 2021"
+[dumpfile_size] 1923
+[savefile] "/media/bitlockermount/Users/Jonathan/Documents/PDF_libros/Ingeniería/labo_circ_dig_I/labo_II/src/lut_4b_multiplier/lut_multiplier_4b_vis.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -39 16
+*-14.000000 12040 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+test_bench.clk_4b
+test_bench.resetn_4b
+@22
+test_bench.source_number_4b_0[3:0]
+@25
+test_bench.source_number_4b_1[3:0]
+@24
+test_bench.result_4b[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,51 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun May 16 06:46:12 2021
+[*]
+[dumpfile] "/media/bitlockermount/Users/Jonathan/Documents/PDF_libros/Ingeniería/labo_circ_dig_I/labo_II/src/lut_factorial/lut_factorial.vcd"
+[dumpfile_mtime] "Sun May 16 06:45:21 2021"
+[dumpfile_size] 21173
+[savefile] "/media/bitlockermount/Users/Jonathan/Documents/PDF_libros/Ingeniería/labo_circ_dig_I/labo_II/src/lut_factorial/lut_factorial_vis.gtkw"
+[timestart] 0
+[size] 1322 704
+[pos] 44 27
+*-13.000000 6000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_bench.
+[sst_width] 233
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 180
+@28
+test_bench.clk_32b
+test_bench.start
+test_bench.resetn_32b
+@24
+test_bench.COND.source_number_32b[31:0]
+@200
+-factorial
+@24
+test_bench.COND.predecessor[31:0]
+test_bench.COND.prev_fact[63:0]
+@200
+-seq_logic
+@24
+[color] 3
+test_bench.COND.predecessor_seq[31:0]
+test_bench.COND.fact_LSB[63:0]
+test_bench.COND.fact_MSB[63:0]
+[color] 3
+test_bench.COND.intern_fact[63:0]
+@200
+-outputs
+@24
+test_bench.factorial[63:0]
+@28
+test_bench.output_ready
+@200
+-control_signals
+@28
+test_bench.COND.enable_0
+test_bench.COND.enable_1
+test_bench.COND.control
+[pattern_trace] 1
+[pattern_trace] 0

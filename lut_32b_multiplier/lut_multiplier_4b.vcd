@@ -1,0 +1,384 @@
+$date
+	Mon May  3 00:04:13 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module test_bench $end
+$scope module COND $end
+$var wire 1 ! clk_32b $end
+$var wire 1 " resetn_32b $end
+$var wire 32 # source_number_32b_0 [31:0] $end
+$var wire 32 $ source_number_32b_1 [31:0] $end
+$var wire 64 % result_64b_7 [63:0] $end
+$var wire 64 & result_64b_6 [63:0] $end
+$var wire 64 ' result_64b_5 [63:0] $end
+$var wire 64 ( result_64b_4 [63:0] $end
+$var wire 64 ) result_64b_3 [63:0] $end
+$var wire 64 * result_64b_2 [63:0] $end
+$var wire 64 + result_64b_1 [63:0] $end
+$var wire 64 , result_64b_0 [63:0] $end
+$var reg 64 - result_64b [63:0] $end
+$scope module lut_4B_0 $end
+$var wire 1 ! clk_4b $end
+$var wire 1 " resetn_4b $end
+$var wire 32 . source_number_4b_0 [31:0] $end
+$var wire 4 / source_number_4b_1 [3:0] $end
+$var wire 32 0 result_4b_1 [31:0] $end
+$var wire 32 1 result_4b_0 [31:0] $end
+$var reg 64 2 result_4b [63:0] $end
+$scope module lut_2B_0 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 3 source_number_2b_0 [31:0] $end
+$var wire 2 4 source_number_2b_1 [1:0] $end
+$var reg 64 5 result_2b [63:0] $end
+$upscope $end
+$scope module lut_2B_1 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 6 source_number_2b_0 [31:0] $end
+$var wire 2 7 source_number_2b_1 [1:0] $end
+$var reg 64 8 result_2b [63:0] $end
+$upscope $end
+$upscope $end
+$scope module lut_4B_1 $end
+$var wire 1 ! clk_4b $end
+$var wire 1 " resetn_4b $end
+$var wire 32 9 source_number_4b_0 [31:0] $end
+$var wire 4 : source_number_4b_1 [3:0] $end
+$var wire 32 ; result_4b_1 [31:0] $end
+$var wire 32 < result_4b_0 [31:0] $end
+$var reg 64 = result_4b [63:0] $end
+$scope module lut_2B_0 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 > source_number_2b_0 [31:0] $end
+$var wire 2 ? source_number_2b_1 [1:0] $end
+$var reg 64 @ result_2b [63:0] $end
+$upscope $end
+$scope module lut_2B_1 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 A source_number_2b_0 [31:0] $end
+$var wire 2 B source_number_2b_1 [1:0] $end
+$var reg 64 C result_2b [63:0] $end
+$upscope $end
+$upscope $end
+$scope module lut_4B_2 $end
+$var wire 1 ! clk_4b $end
+$var wire 1 " resetn_4b $end
+$var wire 32 D source_number_4b_0 [31:0] $end
+$var wire 4 E source_number_4b_1 [3:0] $end
+$var wire 32 F result_4b_1 [31:0] $end
+$var wire 32 G result_4b_0 [31:0] $end
+$var reg 64 H result_4b [63:0] $end
+$scope module lut_2B_0 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 I source_number_2b_0 [31:0] $end
+$var wire 2 J source_number_2b_1 [1:0] $end
+$var reg 64 K result_2b [63:0] $end
+$upscope $end
+$scope module lut_2B_1 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 L source_number_2b_0 [31:0] $end
+$var wire 2 M source_number_2b_1 [1:0] $end
+$var reg 64 N result_2b [63:0] $end
+$upscope $end
+$upscope $end
+$scope module lut_4B_3 $end
+$var wire 1 ! clk_4b $end
+$var wire 1 " resetn_4b $end
+$var wire 32 O source_number_4b_0 [31:0] $end
+$var wire 4 P source_number_4b_1 [3:0] $end
+$var wire 32 Q result_4b_1 [31:0] $end
+$var wire 32 R result_4b_0 [31:0] $end
+$var reg 64 S result_4b [63:0] $end
+$scope module lut_2B_0 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 T source_number_2b_0 [31:0] $end
+$var wire 2 U source_number_2b_1 [1:0] $end
+$var reg 64 V result_2b [63:0] $end
+$upscope $end
+$scope module lut_2B_1 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 W source_number_2b_0 [31:0] $end
+$var wire 2 X source_number_2b_1 [1:0] $end
+$var reg 64 Y result_2b [63:0] $end
+$upscope $end
+$upscope $end
+$scope module lut_4B_4 $end
+$var wire 1 ! clk_4b $end
+$var wire 1 " resetn_4b $end
+$var wire 32 Z source_number_4b_0 [31:0] $end
+$var wire 4 [ source_number_4b_1 [3:0] $end
+$var wire 32 \ result_4b_1 [31:0] $end
+$var wire 32 ] result_4b_0 [31:0] $end
+$var reg 64 ^ result_4b [63:0] $end
+$scope module lut_2B_0 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 _ source_number_2b_0 [31:0] $end
+$var wire 2 ` source_number_2b_1 [1:0] $end
+$var reg 64 a result_2b [63:0] $end
+$upscope $end
+$scope module lut_2B_1 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 b source_number_2b_0 [31:0] $end
+$var wire 2 c source_number_2b_1 [1:0] $end
+$var reg 64 d result_2b [63:0] $end
+$upscope $end
+$upscope $end
+$scope module lut_4B_5 $end
+$var wire 1 ! clk_4b $end
+$var wire 1 " resetn_4b $end
+$var wire 32 e source_number_4b_0 [31:0] $end
+$var wire 4 f source_number_4b_1 [3:0] $end
+$var wire 32 g result_4b_1 [31:0] $end
+$var wire 32 h result_4b_0 [31:0] $end
+$var reg 64 i result_4b [63:0] $end
+$scope module lut_2B_0 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 j source_number_2b_0 [31:0] $end
+$var wire 2 k source_number_2b_1 [1:0] $end
+$var reg 64 l result_2b [63:0] $end
+$upscope $end
+$scope module lut_2B_1 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 m source_number_2b_0 [31:0] $end
+$var wire 2 n source_number_2b_1 [1:0] $end
+$var reg 64 o result_2b [63:0] $end
+$upscope $end
+$upscope $end
+$scope module lut_4B_6 $end
+$var wire 1 ! clk_4b $end
+$var wire 1 " resetn_4b $end
+$var wire 32 p source_number_4b_0 [31:0] $end
+$var wire 4 q source_number_4b_1 [3:0] $end
+$var wire 32 r result_4b_1 [31:0] $end
+$var wire 32 s result_4b_0 [31:0] $end
+$var reg 64 t result_4b [63:0] $end
+$scope module lut_2B_0 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 u source_number_2b_0 [31:0] $end
+$var wire 2 v source_number_2b_1 [1:0] $end
+$var reg 64 w result_2b [63:0] $end
+$upscope $end
+$scope module lut_2B_1 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 x source_number_2b_0 [31:0] $end
+$var wire 2 y source_number_2b_1 [1:0] $end
+$var reg 64 z result_2b [63:0] $end
+$upscope $end
+$upscope $end
+$scope module lut_4B_7 $end
+$var wire 1 ! clk_4b $end
+$var wire 1 " resetn_4b $end
+$var wire 32 { source_number_4b_0 [31:0] $end
+$var wire 4 | source_number_4b_1 [3:0] $end
+$var wire 32 } result_4b_1 [31:0] $end
+$var wire 32 ~ result_4b_0 [31:0] $end
+$var reg 64 !" result_4b [63:0] $end
+$scope module lut_2B_0 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 "" source_number_2b_0 [31:0] $end
+$var wire 2 #" source_number_2b_1 [1:0] $end
+$var reg 64 $" result_2b [63:0] $end
+$upscope $end
+$scope module lut_2B_1 $end
+$var wire 1 ! clk_2b $end
+$var wire 1 " resetn_2b $end
+$var wire 32 %" source_number_2b_0 [31:0] $end
+$var wire 2 &" source_number_2b_1 [1:0] $end
+$var reg 64 '" result_2b [63:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module TEST $end
+$var wire 64 (" result_64b [63:0] $end
+$var reg 1 )" clk_32b $end
+$var reg 1 *" resetn_32b $end
+$var reg 32 +" source_number_32b_0 [31:0] $end
+$var reg 32 ," source_number_32b_1 [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx ,"
+bx +"
+1*"
+0)"
+bz ("
+bx '"
+bz &"
+bz %"
+bx $"
+bz #"
+bz ""
+bx !"
+bx ~
+bx }
+bz |
+bz {
+bx z
+bz y
+bz x
+bx w
+bz v
+bz u
+bx t
+bx s
+bx r
+bz q
+bz p
+bx o
+bz n
+bz m
+bx l
+bz k
+bz j
+bx i
+bx h
+bx g
+bz f
+bz e
+bx d
+bz c
+bz b
+bx a
+bz `
+bz _
+bx ^
+bx ]
+bx \
+bz [
+bz Z
+bx Y
+bz X
+bz W
+bx V
+bz U
+bz T
+bx S
+bx R
+bx Q
+bz P
+bz O
+bx N
+bz M
+bz L
+bx K
+bz J
+bz I
+bx H
+bx G
+bx F
+bz E
+bz D
+bx C
+bz B
+bz A
+bx @
+bz ?
+bz >
+bx =
+bx <
+bx ;
+bz :
+bz 9
+bx 8
+bz 7
+bz 6
+bx 5
+bz 4
+bz 3
+bx 2
+bx 1
+bx 0
+bz /
+bz .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bz $
+bz #
+z"
+z!
+$end
+#20
+1)"
+#40
+0)"
+#60
+0*"
+1)"
+#80
+0)"
+#100
+b1001 +"
+1)"
+#120
+0)"
+#140
+b0 ,"
+1)"
+#160
+0)"
+#180
+b11 ,"
+1)"
+#200
+0)"
+#220
+b1000 ,"
+1)"
+#240
+0)"
+#260
+b10 ,"
+1)"
+#280
+0)"
+#300
+1)"
+#320
+0)"
+#340
+1)"
+#360
+0)"
+#380
+1)"
+#400
+0)"
+#420
+1)"
+#440
+0)"
+#460
+1)"
+#480
+0)"
+#500
+b11 ,"
+1)"
